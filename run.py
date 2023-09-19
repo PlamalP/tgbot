@@ -4,9 +4,10 @@ from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message, CallbackQuery
 from buttons import get_start_ikb, get_start_ikb2
 import database
+import tokenbota
 
 
-bot = Bot(token='6370468816:AAFM3Lol9CsTjobP4k8ifbUDqCO6WcuvRgQ')
+bot = Bot(token=tokenbota.token1())
 dp = Dispatcher()
 
 
